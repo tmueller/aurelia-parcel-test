@@ -1,0 +1,24 @@
+Loader:
+    ✔ cleanup @done (2018-8-8 15:03:39)
+    ✔ automatically add aurelia packages via { "au-...": import("au-...") } @done (2018-8-8 15:03:40)
+    ✔ prevent template loading @done (2018-8-8 15:03:42)
+    ☐ add all aurelia packages for auto loading
+    ✘ HMR @cancelled (2018-8-8 23:11:40)
+        * Parcel always calls main, which restarts aurelia
+        * Not calling main does not update anything, even when
+          using aurelia-hot-module-reload
+    ✘ loading HTML? @cancelled (2018-8-8 13:40:24)
+    ☐ automatic tests
+
+Bootstrap:
+    ✔ copy webpack bootstrap @done (2018-8-8 12:15:21)
+    ☐ different starting mechanisms
+        ✔ explicit bootstrap call @done (2018-8-9 00:21:21)
+        ☐ aurelia-app attribute
+        ☐ app.ts/app.html
+    ☐ automatic tests
+
+Build:
+    ✔ prod build @done (2018-8-9 00:49:59)
+    ✔ don't bundle hmr code @done (2018-8-9 00:21:31)
+    ✔ don't bundle hmr module @done (2018-8-9 00:21:32)
